@@ -33,3 +33,9 @@ module Clark
         end
     end
 end
+
+# Try out the server
+# 
+# $ ruby server.rb
+server = Clark::Server.new(4481)
+server.start
